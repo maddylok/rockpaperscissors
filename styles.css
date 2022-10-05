@@ -1,0 +1,177 @@
+@font-face{
+    font-family: 'Silkscreen', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+    }
+
+html {
+    font-family: 'Silkscreen', Verdana;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+h2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.game-content img{
+    width: 200px;
+    height: 200px;
+}
+
+.element-choice {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.water-element {
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.fire-element {
+    border: transparent;
+    background: transparent;
+    cursor: pointer;
+}
+
+.grass-element {
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.rules {
+    text-align: center;
+    font-size: 25px;
+}
+
+.blue {
+    color: cornflowerblue;
+}
+
+.red {
+    color: #E6676B;
+}
+
+.green {
+    color: #80B362;
+}
+
+.rival-results {
+    display: block;
+    border-right: 3px solid;
+}
+
+.round {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.rival-pokemon {
+    font-size: 18px;
+    margin: 19px 0 -30px 19px;
+}
+
+.game-results {
+    display: flex;
+    border: 3px solid;
+    border-radius: 5px;
+}
+
+.player-results {
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.endgame {
+    text-align: center;
+}
+
+.endgame-message {
+    font-size: 30px;
+    padding: 20px;
+    overflow: auto;
+    white-space: nowrap;
+    animation: typing 2.0s steps(80, end) forwards;
+    width: 0;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+.again {
+    visibility: hidden;
+    padding: 20px;
+    margin: 18px;
+    font-size: 15px;
+    background-color:transparent;
+    color: black;
+    border: 3px solid #f1575789;
+    cursor: pointer;
+    text-transform: none;
+    line-height: 1.15;
+    font-family: 'Silkscreen', Verdana;
+}
+
+.again:hover{
+    border: 3px solid white;
+    background-color: #f1575789;
+    color: white;
+    padding: 20px;
+    margin: 18px;
+    font-size: 15px;
+}
+
+footer {
+    text-align: center;
+    border-top: 3px solid;
+    width: 100%;
+    
+}
+
+/* .black-border {
+    border-color: black;
+} */
+
+/* .yellow-border {
+    border-color: yellow;
+}
+
+.green-border {
+    border-color: #80B362;
+}
+
+.red-border {
+    border-color: #E6676B;
+} */
+
+/* .rival-pokemon-water {
+    visibility: hidden;
+    width: 200px;
+    height: 200px;
+}
+
+.rival-pokemon-fire {
+    visibility: hidden;
+}
+
+.rival-pokemon-grass {
+    visibility: hidden;
+} */
+
+.endgame img{
+    width: 145px;
+    height: 200px;
+}
+
