@@ -9,5 +9,5 @@ Water beats fire
 Grass beats water
 Fire beats grass
 
-
+<a href="https://maddylok.github.io/rockpaperscissors"><img src = "pokemongif.gif"></a>
 Hope you enjoy!! 
